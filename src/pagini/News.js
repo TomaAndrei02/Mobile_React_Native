@@ -14,7 +14,7 @@ export default function News() {
           'https://newsapi.org/v2/everything', {
           params: {
             q: 'gaming',
-            apiKey: '5566266c65b34cc99727459b4f73c56f',
+            apiKey: '...',
           },
         });
         setNews(response.data.articles.slice(0,30));
