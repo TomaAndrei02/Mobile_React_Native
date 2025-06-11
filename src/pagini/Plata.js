@@ -62,7 +62,7 @@ export default function Plata() {
 
   const validareData = (date) => {
     const [month, year] = date.split('/').map(Number);
-    return month >= 1 && month <= 12 && year >= 24 && year <= 99;
+    return month >= 1 && month <= 12 && year >= 25 && year <= 99;
   };
 
   const validareCvv = (cvv) => {
